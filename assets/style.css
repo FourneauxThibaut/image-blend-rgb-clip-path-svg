@@ -1,0 +1,95 @@
+/* body{
+  background-image: url("https://images.unsplash.com/photo-1631372126726-edb028823784?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  clip-path: url(./storage/clip\ path.svg);
+  background-size: cover;
+  background-blend-mode: hard-light;
+  animation: rgb 10s infinite;
+  -webkit-animation: rgb 10s infinite
+} */
+img {
+  margin: 10% auto;
+  width: auto;
+  height: 80vh;
+  -webkit-clip-path: url(#clipit);
+          clip-path: url(#clipit);
+  background-size: cover;
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+  background-blend-mode: hard-light;
+  animation: rgb 10s infinite;
+  -webkit-animation: rgb 10s infinite;
+}
+
+@keyframes rgb {
+  0% {
+    background-color: #FF5733;
+  }
+  10% {
+    background-color: #7B9DE1;
+  }
+  20% {
+    background-color: #D27BE1;
+  }
+  30% {
+    background-color: #E17B7B;
+  }
+  40% {
+    background-color: #E1D27B;
+  }
+  50% {
+    background-color: #B9E17B;
+  }
+  60% {
+    background-color: #7BE1A1;
+  }
+  70% {
+    background-color: #7BDEE1;
+  }
+  80% {
+    background-color: #7B7BE1;
+  }
+  90% {
+    background-color: #AB7BE1;
+  }
+  100% {
+    background-color: #FF5733;
+  }
+}
+
+@-webkit-keyframes rgb {
+  0% {
+    background-color: #FF5733;
+  }
+  10% {
+    background-color: #7B9DE1;
+  }
+  20% {
+    background-color: #D27BE1;
+  }
+  30% {
+    background-color: #E17B7B;
+  }
+  40% {
+    background-color: #E1D27B;
+  }
+  50% {
+    background-color: #B9E17B;
+  }
+  60% {
+    background-color: #7BE1A1;
+  }
+  70% {
+    background-color: #7BDEE1;
+  }
+  80% {
+    background-color: #7B7BE1;
+  }
+  90% {
+    background-color: #AB7BE1;
+  }
+  100% {
+    background-color: #FF5733;
+  }
+}
+/*# sourceMappingURL=style.css.map */
