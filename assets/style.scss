@@ -8,13 +8,21 @@
   -webkit-animation: rgb 10s infinite
 } */
 
-img{
-  margin: 10% auto;
-  width: auto;
-  height: 80vh;
+.container{
+  margin: 0 auto;
+  height: 60vh;
+  width: 30%;
+}
+.image{  
+  margin-top: 30%;
+  transform: translate(20%);
+  width: 100%;
+  height: 100%;
   clip-path: url(#clipit);
+}
+img{
+  transform: translate(-70px, -70px);
   background-size: cover;
-  transform: translateX(150%);
   background-blend-mode: hard-light;
   animation: rgb 10s infinite;
   -webkit-animation: rgb 10s infinite
